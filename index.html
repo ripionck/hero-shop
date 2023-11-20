@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Font-awesome Link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- This is navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #1a187a"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            style="width: 18rem"
+            class="d-lg-none d-block"
+            src="./resources/Group 2.png"
+            alt="Hero Shop"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">
+            <img
+              style="width: 18rem"
+              class="d-lg-block d-none"
+              src="./resources/Group 2.png"
+              alt="Hero Shop"
+          /></a>
+          <form class="d-flex">
+            <input
+              style="width: 24rem"
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-3">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                style="color: #5b4d76"
+                >About</a
+              >
+            </li>
+            <li class="nav-item mx-lg-4">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                style="color: #5b4d76"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item mt-2 me-lg-3">
+              <i
+                class="fa-solid fa-cart-shopping d-lg-inline d-none text-white me-lg-3"
+              ></i>
+            </li>
+            <li class="nav-item mt-2">
+              <i class="fa-regular fa-user d-lg-inline d-none text-white"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- This is carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      style="background-image: url(./resources/background.png)"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="container">
+        <div class="carousel-inner" style="height: 580px">
+          <div class="carousel-item active pt-lg-5">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 pt-lg-5 ps-lg-5">
+                <div class="card-body text-lg-start text-sm-center">
+                  <p class="card-text fw-bold">Pro.Beyond.</p>
+                  <h1 class="card-title display-2">
+                    IPhone <span class="fw-bold">14 Pro</span>
+                  </h1>
+                  <p class="card-text">
+                    Created to change everything for the better. For everyone
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary px-lg-5"
+                    style="background-color: #1a187a"
+                    >Shop Now</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 ps-lg-5">
+                <img
+                  src="./resources/Iphone Image.png"
+                  class="d-block"
+                  alt="Iphone Image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item pt-lg-5">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 pt-lg-5 ps-lg-5">
+                <div class="card-body text-lg-start text-sm-center">
+                  <p class="card-text fw-bold">Pro.Beyond.</p>
+                  <h1 class="card-title display-2">
+                    IPhone <span class="fw-bold">14 Pro</span>
+                  </h1>
+                  <p class="card-text">
+                    Created to change everything for the better. For everyone
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary px-lg-5"
+                    style="background-color: #1a187a"
+                    >Shop Now</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 ps-lg-5">
+                <img
+                  src="./resources/Iphone Image.png"
+                  class="d-block"
+                  alt="Iphone Image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item pt-lg-5">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 pt-lg-5 ps-lg-5">
+                <div class="card-body text-lg-start text-sm-center">
+                  <p class="card-text fw-bold">Pro.Beyond.</p>
+                  <h1 class="card-title display-2">
+                    IPhone <span class="fw-bold">14 Pro</span>
+                  </h1>
+                  <p class="card-text">
+                    Created to change everything for the better. For everyone
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary px-lg-5"
+                    style="background-color: #1a187a"
+                    >Shop Now</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 ps-lg-5">
+                <img
+                  src="./resources/Iphone 14 pro 1-2.png"
+                  class="d-block"
+                  alt="Iphone Image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- This is card -->
+    <div class="d-flex flex-column flex-lg-row w-100 overflow-hidden">
+      <!-- Left Part -->
+      <div class="pt-lg-5 pt-sm-5" style="flex: 1">
+        <div class="d-flex flex-lg-row">
+          <img
+            src="./resources/ipad.png"
+            class="img-fluid"
+            alt="iPad 9"
+            style="width: 50%"
+          />
+          <div class="ps-lg-3 pe-sm-5 pb-4">
+            <h1>iPad 9</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem recusandae laboriosam ullam nulla dolorem, facere
+              doloremque voluptates quaerat, Iure, quis dignissimos?
+            </p>
+          </div>
+        </div>
+        <img
+          src="./resources/Group 7.png"
+          class="img-fluid"
+          alt="Apple Airpod Max"
+          style="margin-top: -15px"
+        />
+      </div>
+
+      <!-- Right Part -->
+      <div
+        class="d-lg-flex pt-lg-5 pt-sm-5 px-sm-5"
+        style="background-color: #ededed; flex: 1"
+      >
+        <div class="ps-lg-5 w-75 mx-sm-auto">
+          <p class="fs-1">Mackbook <span class="fw-bold">Air</span></p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+            repellat officia vel placeat! Incidunt, voluptatem?
+          </p>
+          <a
+            href="#"
+            class="btn btn-primary px-lg-5 px-sm-5"
+            style="background-color: #1a187a"
+            >Shop Now</a
+          >
+        </div>
+        <img
+          src="./resources/Group 6.png"
+          class="img-fluid h-75 mt-sm-5"
+          alt="Mackbook Air"
+        />
+      </div>
+    </div>
+
+    <!-- products icon -->
+    <div style="background-color: #fafafa">
+      <div class="container py-lg-5 py-sm-5">
+        <div class="d-flex justify-content-between">
+          <div>
+            <p>Browse By Category</p>
+          </div>
+          <div class="d-flex">
+            <i class="fa-solid fa-angle-left"></i>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+        <div class="row gap-lg-3 gap-sm-2">
+          <div
+            class="col-lg-1 col-sm-5 px-4 text-center pt-3 rounded-3 flex-fill"
+            style="background-color: #ededed"
+          >
+            <i class="fa-solid fa-mobile"></i>
+            <p>Phones</p>
+          </div>
+          <div
+            class="col-lg-1 col-sm-5 text-center px-4 pt-3 rounded-3 flex-fill"
+            style="background-color: #ededed"
+          >
+            <i class="fa-solid fa-camera"></i>
+            <p>Camera</p>
+          </div>
+          <div
+            class="col-lg-1 col-sm-5 text-center px-4 pt-3 rounded-3 flex-fill"
+            style="background-color: #ededed"
+          >
+            <i class="fa-solid fa-headphones"></i>
+            <p>Headphones</p>
+          </div>
+          <div
+            class="col-lg-1 col-sm-5 text-center px-4 pt-3 rounded-3 flex-fill"
+            style="background-color: #ededed"
+          >
+            <i class="fa-solid fa-computer"></i>
+            <p>Computers</p>
+          </div>
+          <div
+            class="col-lg-1 col-sm-5 text-center px-4 pt-3 rounded-3 flex-fill"
+            style="background-color: #ededed"
+          >
+            <i class="fa-solid fa-gamepad"></i>
+            <p>Gaming</p>
+          </div>
+          <div
+            class="col-lg-1 col-sm-5 text-center px-4 pt-3 rounded-3 flex-fill"
+            style="background-color: #ededed"
+          >
+            <i class="fa-solid fa-desktop"></i>
+            <p>Desktop</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- This is products  -->
+    <div class="container overflow-hidden py-lg-5 py-sm-5">
+      <div class="d-flex gap-3">
+        <p class="fw-bold text-decoration-underline">New Arrival</p>
+        <p>Bestseller</p>
+        <p>Featured Products</p>
+      </div>
+      <div class="row gap-lg-4 gap-sm-2">
+        <div
+          class="card col-lg-2 col-sm-6 border-0 position-relative pt-5"
+          style="background-color: #ededed; width: 16rem"
+        >
+          <img
+            src="./resources/Iphone 14 pro 1-1.png"
+            class="card-img-top"
+            alt="IPhone 14 Pro"
+          />
+          <i class="fa-regular fa-heart position-absolute top-0 end-0"></i>
+          <div class="card-body">
+            <p class="card-text text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <h5 class="card-title text-center fw-bold">$300</h5>
+            <a href="#" class="btn btn-primary d-flex justify-content-center"
+              >Buy Now</a
+            >
+          </div>
+        </div>
+        <div
+          class="card col-lg-2 col-sm-6 border-0 position-relative pt-5"
+          style="background-color: #ededed; width: 16rem"
+        >
+          <img
+            src="./resources/Iphone 14 pro 1-2.png"
+            class="card-img-top"
+            alt="IPhone 14 Pro"
+          />
+          <i class="fa-regular fa-heart position-absolute top-0 end-0"></i>
+          <div class="card-body">
+            <p class="card-text text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <h5 class="card-title text-center fw-bold">$1800</h5>
+            <a href="#" class="btn btn-primary d-flex justify-content-center"
+              >Buy Now</a
+            >
+          </div>
+        </div>
+        <div
+          class="card col-lg-2 col-sm-6 border-0 position-relative pt-5"
+          style="background-color: #ededed; width: 16rem"
+        >
+          <img
+            src="./resources/Iphone 14 pro 1-3.png"
+            class="card-img-top"
+            alt="IPhone 14 Pro"
+          />
+          <i
+            class="fa-solid fa-heart position-absolute top-0 end-0 text-danger"
+          ></i>
+          <div class="card-body">
+            <p class="card-text text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <h5 class="card-title text-center fw-bold">$800</h5>
+            <a href="#" class="btn btn-primary d-flex justify-content-center"
+              >Buy Now</a
+            >
+          </div>
+        </div>
+        <div
+          class="card col-lg-2 col-sm-6 border-0 position-relative pt-5"
+          style="background-color: #ededed; width: 16rem"
+        >
+          <img
+            src="./resources/Iphone 14 pro 1.png"
+            class="img-fluid"
+            alt="IPhone 14 Pro"
+          />
+          <i class="fa-regular fa-heart position-absolute top-0 end-0"></i>
+          <div class="card-body">
+            <p class="card-text text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <h5 class="card-title text-center fw-bold">$500</h5>
+            <a href="#" class="btn btn-primary d-flex justify-content-center"
+              >Buy Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- This is sales banner -->
+
+    <div
+      class="d-flex flex-lg-row flex-sm-column justify-content-between py-lg-5 w-100 overflow-hidden"
+      style="background-color: #958ad4"
+    >
+      <div class="order-sm-1" style="margin-left: -30px">
+        <img height="240px" src="./resources/image 19.png" alt="Ipad" />
+      </div>
+      <div class="order-sm-2 py-lg-0 py-sm-4">
+        <div class="pt-lg-5 w-25 mx-auto">
+          <h1 class="fs-1 fw-bold text-lg-start">
+            11.11 <span class="text-white">Sale</span>
+          </h1>
+          <p class="text-lg-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+            cupiditate corporis, sunt doloribus molestias vel qui voluptatibus.
+            Repellat, maiores animi!
+          </p>
+        </div>
+      </div>
+      <div class="order-sm-3 right">
+        <img height="240px" src="./resources/image 20.png" alt="Ipad" />
+      </div>
+    </div>
+
+    <!-- This is footer -->
+    <div class="py-lg-5 py-sm-5" style="background-color: #0e071b">
+      <div class="container text-white">
+        <div class="row">
+          <div
+            class="col-lg-3 order-lg-1 order-sm-1 text-lg-start text-sm-center"
+          >
+            <img
+              style="width: 200px"
+              src="./resources/Group 2.png"
+              alt="Hero Shop"
+            />
+          </div>
+          <div
+            class="col-lg-3 order-lg-2 order-sm-4 text-lg-start text-sm-center"
+          >
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f px-5"></i>
+            <i class="fa-brands fa-tiktok pe-5"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="col-lg-3 order-lg-3 order-sm-2 py-lg-0 py-sm-4">
+            <ul class="list-unstyled text-lg-start text-sm-center">
+              <li>Services</li>
+              <li>Bonus Program</li>
+              <li>Gift Cards</li>
+              <li>Credits and Payment</li>
+              <li>Service Contacts</li>
+              <li>Non-cash Account</li>
+              <li>Payment</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 order-lg-4 order-sm-3">
+            <ul class="list-unstyled text-lg-start text-sm-center">
+              <li>Assistance to the buyer</li>
+              <li>Find an order</li>
+              <li>Terms of delivery</li>
+              <li>Exchange and returns of goods</li>
+              <li>Guarantee</li>
+              <li>Frequently asked questions</li>
+              <li>Terms of use of the site</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap script link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MssmP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
